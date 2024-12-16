@@ -1,0 +1,326 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tela Login */
+img {
+    width: 150px;
+}
+
+
+.input-box input {
+
+    width: 100%;
+
+    height: 100%;
+
+    background: transparent;
+
+    border: none;
+
+    outline: none;
+
+    border: 2px solid rgba(255, 255, 255, 0.2);
+
+    border-radius: 40px;
+
+    font-size: 16px;
+
+    color: #fff;
+
+    padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder {
+
+    color: #fff;
+
+}
+
+.wrapper .remember-forgot {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 14.5px;
+
+    margin: -15px 0 15px;
+
+}
+
+.remember-forgot label input {
+
+    accent-color: #fff;
+
+    margin-right: 3px;
+
+}
+
+
+.remember-forgot a {
+
+    color: #fff;
+
+    text-decoration: none;
+
+    margin-left: 45%;
+
+}
+
+.remember-forgot a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+.wrapper .register-link {
+
+    font-size: 14.5px;
+
+    text-align: center;
+
+    margin: 20px 0 15px;
+
+}
+
+.register-link p a {
+
+    color: #fff;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    margin-left: 35%;
+
+}
+
+.register-link p a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* registro */
+
+.login-page {
+
+    /* cor de fundo escura */
+
+    color: #e2e8f0;
+    /* cor do texto */
+
+    font-family: Arial, sans-serif;
+
+    height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.form-wrapper {
+
+    background-color: #2d3748;
+    /* fundo do formulário */
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+
+    padding: 24px;
+
+    width: 100%;
+
+    max-width: 400px;
+
+}
+
+.title {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    margin-bottom: 16px;
+
+    text-align: center;
+
+}
+
+.form {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.name-fields {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 16px;
+
+    gap: 15px;
+
+}
+
+.input {
+
+    background-color: #4a5568;
+    /* fundo dos inputs */
+
+    color: #e2e8f0;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 10px;
+
+    margin-bottom: 12px;
+
+    width: 95%;
+
+    transition: background-color 0.15s ease;
+
+}
+
+.input:focus {
+
+    background-color: #2c5282;
+    /* fundo ao focar */
+
+    outline: none;
+
+    border: 1px solid #63b3ed;
+    /* borda ao focar */
+
+}
+
+.label {
+
+    font-size: 14px;
+
+    margin-bottom: 8px;
+
+}
+
+.select {
+
+    background-color: #4a5568;
+    /* fundo do select */
+
+    color: #e2e8f0;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 10px;
+
+    margin-bottom: 12px;
+
+}
+
+.footer-text {
+
+    text-align: center;
+
+    margin-top: 16px;
+
+}
+
+.link {
+
+    color: #63b3ed;
+    /* cor do link */
+
+    text-decoration: none;
+
+}
+
+.link:hover {
+
+    text-decoration: underline;
+
+}
+
+.submit-btn {
+
+    background: linear-gradient(to right, #667eea, #764ba2);
+    /* gradiente */
+
+    color: #fff;
+
+    font-weight: bold;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: background 0.15s ease;
+
+}
+
+.submit-btn:hover {
+
+    background: linear-gradient(to right, #5a67d8, #6b46c1);
+    /* cor ao passar o mouse */
+
+}
+
+/*Painel usuarios*/
+
+
+
+/* From add imagens */
+
+
+
+.submitUser-btn {
+
+    margin-left: 70%;
+
+    background: linear-gradient(to right, #667eea, #764ba2);
+    /* gradiente */
+
+    color: #fff;
+
+    font-weight: bold;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: background 0.15s ease;
+
+}
+
+
+.submitUser-btn:hover {
+
+    background: linear-gradient(to right, #5a67d8, #6b46c1);
+    /* cor ao passar o mouse */
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <title>Document</title>
+</head>
+
+<nav-component></nav-component>
+
+
+<body class="login-page">
+    <div class="form-wrapper">
+        <h2 class="title">Cadastrar</h2>
+        <form id="form" class="form">
+            <div class="name-fields">
+                <input id="nome" placeholder="Primeiro Nome" class="input" type="text" />
+                <input id="sobreNome" placeholder="Sobrenome" class="input" type="text" />
+            </div>
+            <input id="email" placeholder="Email" class="input mb-4" type="email" />
+            <input id="confirmarEmail" placeholder="Confirmar Email" class="input mb-4" type="email" />
+            <input id="senha" placeholder="Senha" class="input mb-4" type="password" />
+            <input id="confirmarSenha" placeholder="Confirmar Senha" class="input mb-4" type="password" />
+            <p class="footer-text">
+
+                Já tem uma conta?
+                <a class="link" href="./login.html">Entrar</a>
+            </p>
+            <button id="cadastrar" class="submit-btn" type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <script src="../js/registroScript.js"></script>
+</body>
+
+</html>
